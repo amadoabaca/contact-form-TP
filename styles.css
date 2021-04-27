@@ -1,4 +1,7 @@
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 header{
     position: fixed;
     width: 100%;
@@ -74,13 +77,13 @@ textarea.form-control {
 
 
 .contact-title{
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     margin-bottom: 3rem;
     color: #000000;
 }
 .contact-sub{
-    font-size: .9rem;
+    font-size: 14px;
     color: #686b6b;
 }
 
@@ -94,6 +97,10 @@ textarea.form-control {
 .map iframe{
     width: 100%;
     margin-bottom: 50px;
+}
+.map h3{
+    font-size: 25px;
+    font-weight: 600;
 }
 
 /* wp */
